@@ -2,13 +2,10 @@ package curso.uabc.com.mastedetail;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
-import android.support.v7.app.ActionBarActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.Toast;
 
 import curso.uabc.com.mastedetail.datos.Participante;
 import curso.uabc.com.mastedetail.datos.Participantes;
@@ -30,7 +27,7 @@ import curso.uabc.com.mastedetail.datos.Participantes;
  * {@link ParticipanteListFragment.Callbacks} interface
  * to listen for item selections.
  */
-public class ParticipanteListActivity extends ActionBarActivity
+public class ParticipanteListActivity extends AppCompatActivity
         implements ParticipanteListFragment.Callbacks {
 
     /**

@@ -2,9 +2,10 @@ package curso.uabc.com.mastedetail;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
-import android.support.v4.app.NavUtils;
 import android.view.MenuItem;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.NavUtils;
 
 
 /**
@@ -16,7 +17,7 @@ import android.view.MenuItem;
  * This activity is mostly just a 'shell' activity containing nothing
  * more than a {@link ParticipanteDetailFragment}.
  */
-public class ParticipanteDetailActivity extends ActionBarActivity {
+public class ParticipanteDetailActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
